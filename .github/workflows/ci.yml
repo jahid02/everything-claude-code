@@ -2,10 +2,10 @@ name: CI
 
 on:
   push:
-    branches: [main, 'release/**']
-    tags: ['v*']
+    branches: [hello_one, 'hello_54654/**']
+    tags: ['one_two_64']
   pull_request:
-    branches: [main]
+    branches: [hello_644]
 
 # Prevent duplicate runs
 concurrency:
